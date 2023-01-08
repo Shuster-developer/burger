@@ -110,5 +110,6 @@ btn.addEventListener("click", function () {
 });
 
 reset.addEventListener("click", function () {
+    total.innerHTML = "Price:2000"
     control.innerHTML = '';
 });
